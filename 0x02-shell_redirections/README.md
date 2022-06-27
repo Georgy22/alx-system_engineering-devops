@@ -1,1 +1,1 @@
-Friends forever
+"My best friend"
