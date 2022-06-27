@@ -1,1 +1,1 @@
-"My best friend"
+I love Seth
