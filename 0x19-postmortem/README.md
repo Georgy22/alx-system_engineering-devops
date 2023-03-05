@@ -2,7 +2,7 @@
 Last week, it was reported that the platform was returning 500 Error on all requests made on the platform routes, all the services were down.  90% of the users were affected. The root cause was the failure of our master server web-01.
 
 ## Timeline
-The error was realized on Saturday 27th August 1000 hours (West Africa Time) when Mr Williams saw the master server lagging in speed. Our engineers on call disconnected the master server web-01 for further system analysis and channelled all requests to client server web-02. They soled problem by Sunday 27th August 2200 hours (West Africa Time).
+The error was realized on Tuesday 2nd March 19:00 (West Africa Time) when Abdul said he saw the master server lagging in speed. Our engineers on call disconnected the master server web-01 for further system analysis and channelled all requests to client server web-02. They solved the problem by Wednesday 3rd March 22:00 hours (West Africa Time).
 
 ## cause and resolution
 The platform is served by 2 ubuntu cloud servers. The master server web-01 was connected to serve all requests, and it stopped functioning due to memory outage as a results of so many requests because during a previous test, the client server web-02 was disconnected temporarily for testing and was not connected to the load balancer afterwards. 
